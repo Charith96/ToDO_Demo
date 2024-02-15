@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "Complete presentation prep for Aurelia presentation",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "title": "React JS Session",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "title": "React JS session",
+      "completed": false
+    }
+  ]
+}

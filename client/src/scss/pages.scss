@@ -1,0 +1,79 @@
+// todo list
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100dvh;
+
+    .title-row {
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+
+        .title {
+            text-align: center;
+        }
+    }
+
+    .form-button {
+        .button {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+
+        }
+    }
+
+    .table-container {
+        justify-content: center;
+        width: 100dvw;
+        margin-top: 5dvh;
+
+        #todo-item {
+            line-height: 50px;
+            text-align: center;
+        }
+
+        #complete {
+            color: $text-success-color;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        #not-complete {
+            color: $text-danger-color;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        .action {
+            line-height: 50px;
+            text-align: center;
+        }
+
+    }
+}
+
+// form styles
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .form-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .form-style {
+            background-color: #fafafa;
+            padding: 40px;
+            border-radius: 0.5rem;
+        }
+    }
+}

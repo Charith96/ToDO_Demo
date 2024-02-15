@@ -1,0 +1,11 @@
+@import "../assets/scss/theme";
+@import "../assets/scss/mixins";
+
+// import pages.scss
+@import "pages.scss";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
