@@ -9,8 +9,7 @@ const initialState = {
     toDoListError: null,
     manageTodoError: null,
     getToDoError: null,
-    deleteToDoError: null,
-    
+    deleteToDoError: null,    
 };
 
 
